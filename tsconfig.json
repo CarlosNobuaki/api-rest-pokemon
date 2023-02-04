@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "CompilerOptions":{
+    "target":"ES2022",
+    "lib": ["ES5","ES6","ES2022"],
+    "experimentalDecorators": true,
+    "emitDecoratorsMetaData": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "script": true,
+    "noImplicitAny": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["scr/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "files": true
+  }
+}
